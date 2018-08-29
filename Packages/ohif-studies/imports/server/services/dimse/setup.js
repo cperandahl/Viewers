@@ -3,6 +3,7 @@ import { OHIF } from 'meteor/ohif:core';
 import { CurrentServer } from 'meteor/ohif:servers/both/collections';
 
 const setupDIMSE = () => {
+    const DIMSE = require('dimse');
     // Terminate existing DIMSE servers and sockets and clean up the connection object
     DIMSE.connection.reset();
 
