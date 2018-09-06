@@ -5,7 +5,7 @@ Package.describe({
 });
 
 Npm.depends({
-    dimse: '0.0.1'
+    dimse: 'file://Users/macuser/git/DIMSE'
 })
 
 Package.onUse(function(api) {
